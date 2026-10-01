@@ -1,5 +1,5 @@
-# Címsor 1
-## Címsor 2
+# Itt van valami
+## Itt pedig valamik
 
 ### ...
 #### ---
