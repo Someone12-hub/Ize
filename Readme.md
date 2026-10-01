@@ -12,7 +12,7 @@ Hirtelen megjelenik IDUS a Cradle-nek az AIja akinek sérült a rendszere a Hold
 
 ## Comunity
 
-- Az ok amiért felkértek hogy reklámozzuk ezt a játékot hogy terjesszük a népszerűségét a épelméjű emberek között ugyanis egy hatalmas nagy dráma volt redditen aholis bannolni kellet az oldalt aholis néhány ember MEGKÉRDŐJELEZHETŐ tartalmat osztott meg. Mivel a pragmata a Capcomon belűl egy viszonylag újabb csapat feljesztette igy akarták hogy nekik adjuk meg a tisztelettet eme csodás játékért.
+- Az ok amiért felkértek hogy reklámozzuk ezt a játékot hogy terjesszük a népszerűségét a épelméjű emberek között ugyanis egy hatalmas nagy dráma volt redditen aholis bannolni kellet az oldalt mivel néhány ember MEGKÉRDŐJELEZHETŐ tartalmat osztott meg. Mivel a pragmata a Capcomon belűl egy viszonylag újabb csapat feljesztette igy akarták hogy nekik adjuk meg a tisztelettet eme csodás játékért.
 
 ## Még néhány dolog
 1. Cuki a Diana
