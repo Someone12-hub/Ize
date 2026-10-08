@@ -1,0 +1,12 @@
+header img{
+    height: 400px; 
+}
+header{
+    text-align: center;
+    background: #000be0;
+background: linear-gradient(90deg, rgba(18, 2, 110, 0.91) 1%, rgba(88, 94, 105, 0.884) 19%); ;
+padding-bottom: 2px;
+}
+header ul  li{
+    text-decoration: none;
+}
