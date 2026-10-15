@@ -22,5 +22,27 @@ header a:link{
     color: black;
  }
  #sec1{
-   height: 400px;
+   height: 260px;
+ }
+ #gameplay{
+  height: 280px;
+  width: auto;
+  float: left; 
+ }
+ p{text-align: justify;}
+
+ .szoveg{
+  background-color: #425fed;
+ }
+ #szoveg2{
+  
+ }
+ #DIANAAAA{
+  height: 200px;
+  width: auto;
+  float: right;
+  padding-bottom: 15px;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 15px;
  }
