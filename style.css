@@ -6,8 +6,18 @@ header img{
     height: 400px; 
 }
 header{
+
     text-align: center;
-   padding-bottom: 2px;
+   padding: 24px;
+   background-color: rgb(65, 166, 255);
+}
+section{
+  width: min(100%, 1000px);
+  margin:  0 auto  24px ;
+  padding: clamp(20px, 5vh, 40px);
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 3px 10px rgb(0, 145, 255)
 }
 
 header ul, header a{
