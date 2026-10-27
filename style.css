@@ -1,6 +1,7 @@
 body{
 background: #425fed;
 background: linear-gradient(0deg, rgba(66, 95, 237, 0.83) 10%, rgba(255, 255, 255, 1) 47%);
+padding:24px
 }
 header img{
     height: 400px; 
@@ -19,40 +20,65 @@ section{
   border-radius: 10px;
   box-shadow: 1px 3px 10px rgb(0, 145, 255)
 }
-
+header img{
+  display: block;
+  width: min(100%, 520px);
+  height:auto;
+  margin: 0 auto 12px;
+  border-radius:10px;
+}
+h1{
+  margin: 12px;
+  color: rgb(44, 101, 243);
+  
+}
+h2{
+  color:rgb(98, 137, 192);
+}
 header ul, header a{
      display: flex;
     list-style: none;
     text-align: center;
-  gap: 20px;
+  gap: 10px;
   text-decoration: none;
  justify-content: center;
+ flex-wrap:wrap;
 }
 header a:link{
     color: black;
  }
  #sec1{
-   height: 260px;
+   height: auto;
  }
  #gameplay{
   height: 280px;
   width: auto;
   float: left; 
  }
- p{text-align: justify;}
+ p{text-align: left;
+margin-left: 16px;}
 
  .szoveg{
   background-color: #425fed;
+  margin-bottom:20px;
+  padding:20px;
+  border-radius: 6px;
  }
- #szoveg2{
-  
- }
+
  #DIANAAAA{
-  height: 200px;
+  height: 190px;
   width: auto;
   float: right;
-  padding-bottom: 15px;
-  padding-right: 90px;
-  padding-left: 90px;
-  padding-top: 15px;
+margin: 8px 0px 16px 24px;
+max-width: 40%;
+border-radius: 8px;
+ }
+ @media screen and (max-width: 600px){
+body{
+  padding:12px;
+
+}
+section{
+  background-color:red
+}
  }
