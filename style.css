@@ -55,6 +55,7 @@ header a:link{
   width: auto;
   float: left; 
   margin: 8px 8px 10px 10px;
+  border-radius: 8px;
  }
  p{text-align: left;
 margin-left: 16px;}
@@ -62,9 +63,10 @@ margin-left: 16px;}
 .szo{
   background-color: rgba(122, 129, 255, 0.374);
   border-radius: 10px;
+  padding-bottom: 1px;
 }
  .szoveg{
-  background-color: #425fed;
+  background-color: #bec7f2;
   margin-bottom:20px;
   padding:20px;
   border-radius: 20px;
@@ -94,7 +96,7 @@ border-radius: 8px;
   min-height: 40%;
   width: auto;
 margin: 12px;
-
+border-radius: 8px;
 
   
  }
