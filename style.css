@@ -79,6 +79,26 @@ body{
 
 }
 section{
-  background-color:red
+  margin: 14px;
+  border-radius: 6px;
+}
+header img{
+  width: min(100%, 400px);
+}
+header ul{
+  gap: 5px;
+}
+header li{
+  padding : 4px;
+  font-size:medium;
+}
+.szoveg{
+  padding: 12px;
+}
+#gameplay{
+  height: 180px;
+  width: auto;
+  height: 150px;
+
 }
  }
