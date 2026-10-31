@@ -1,7 +1,8 @@
 body{
 background: #425fed;
 background: linear-gradient(0deg, rgba(66, 95, 237, 0.83) 10%, rgba(255, 255, 255, 1) 47%);
-padding:24px
+padding:24px;
+background-repeat: no-repeat;
 }
 header img{
     height: 400px; 
@@ -14,6 +15,14 @@ header{
 }
 section{
   width: min(100%, 1000px);
+  margin:  0 auto  24px ;
+  padding: clamp(20px, 5vh, 40px);
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 3px 10px rgb(0, 145, 255)
+}
+.specko{
+  width: min(100%, 1100px);
   margin:  0 auto  24px ;
   padding: clamp(20px, 5vh, 40px);
   border: 2px solid black;
@@ -106,6 +115,56 @@ border-radius: 8px;
   display: flex;
   padding: 2px;
  }
+ .flip-card {
+  background-color: transparent;
+  width: 290px;
+  height: 290px;
+  perspective: 1000px;
+  margin: auto;
+  margin-top: 14px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #3f92ff2d;
+  color: rgba(44, 111, 255, 0.349);
+}
+
+.flip-card-back {
+  background-color: rgba(101, 97, 129, 0.322);
+  color: black;
+  transform: rotateY(180deg);
+}
+#typeok{
+  text-align: center;
+  color: blue;
+}
+.cardszo{
+  text-align: justify;
+  
+  
+}
  @media screen and (max-width: 600px){
 #kep{
 
